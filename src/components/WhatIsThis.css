@@ -1,0 +1,56 @@
+.WhatIsThis .clickable {
+	cursor: pointer;
+}
+.WhatIsThis .about-badge {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background: rgba(0, 92, 222, 0.92);
+	padding: 11px 8px 0 8px;
+	width: 164px;
+	border-radius: 37px;
+	box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.35);
+	transition: background-color ease-in-out 250ms;
+}
+.WhatIsThis .about-badge:hover {
+	background-color: rgba(0, 92, 222, 1);
+}
+.WhatIsThis .about-icon {
+	font-size: 60px;
+	vertical-align: top;
+	line-height: 1;
+	display: inline-block;
+}
+.WhatIsThis .about-label {
+	font-size: 15px;
+	line-height: 1.1;
+	width: 75px;
+	margin-left: 6px;
+	display: inline-block;
+	color: white;
+}
+.WhatIsThis .about-text-area {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: white;
+	padding: 15px;
+	z-index: 1;
+	overflow: auto;
+}
+.WhatIsThis .about-text {
+	max-width: 600px;
+}
+.WhatIsThis .about-close {
+	font-size: 30px;
+	font-weight: normal;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	color: #999;
+}
+.WhatIsThis h2 {
+	padding-top: 0;
+}

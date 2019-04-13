@@ -1,0 +1,35 @@
+.TimePicker {
+	display: inline-block;
+	border: 1px solid #555;
+	border-radius: 4px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.TimePicker select {
+	display: inline-block;
+	text-align: right;
+	height: 30px;
+	width: auto;
+	font-size: 14px;
+	padding: 3px 10px;
+	background-color: #ffffff;
+	border: none;
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.TimePicker select:focus {
+	outline: none;
+}
+.TimePicker .colon {
+	font-size: 17px;
+	font-weight: bold !important;
+}
+.TimePicker select.hour {
+	padding-right: 2px;
+	text-align-last: right;
+}
+.TimePicker select.minute {
+	padding-left: 2px;
+	border-right: 1px solid #bbb;
+}
